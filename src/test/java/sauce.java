@@ -1,28 +1,17 @@
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-
-import static org.junit.Assert.*;
-import java.util.concurrent.TimeUnit;
-import java.util.Date;
 import java.util.LinkedList;
-import java.io.File;
 import java.net.URL;
 
-import org.openqa.selenium.support.ui.Select;
 import com.saucelabs.junit.ConcurrentParameterized;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import static org.openqa.selenium.OutputType.*;
 
 @RunWith(ConcurrentParameterized.class)
 public class sauce {
