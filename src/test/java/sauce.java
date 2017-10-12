@@ -5,7 +5,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import java.util.LinkedList;
 import java.net.URL;
-
 import com.saucelabs.junit.ConcurrentParameterized;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.*;
