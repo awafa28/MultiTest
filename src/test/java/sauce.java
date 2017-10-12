@@ -55,7 +55,6 @@ public class sauce {
     	this.sessionId = (((RemoteWebDriver) driver).getSessionId()).toString(); 
     	String message = String.format("SauceOnDemandSessionID=%1$s", this.sessionId); 
     	System.out.println(message); }
-   
     @Test
     public void sauce() {
         driver.get("https://dev.swipezoom.com/");
